@@ -3,7 +3,7 @@ from random import randint
 from curve import EllipticCurve
 from field import PrimeGaloisField
 from point import Point
-from signature import PrivateKey, Signature
+from secp256k1 import PrivateKey, Signature
 
 
 
