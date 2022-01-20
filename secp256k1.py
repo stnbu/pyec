@@ -6,7 +6,7 @@ from curve import EllipticCurve
 from field import PrimeGaloisField
 
 ### secp256k1 -- specifics
-P: int = (0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEFFFFFC2F)
+P: int = 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEFFFFFC2F
 field = PrimeGaloisField(prime=P)
 secp256k1 = EllipticCurve(a=0, b=7, field=field)
 G = Point(
